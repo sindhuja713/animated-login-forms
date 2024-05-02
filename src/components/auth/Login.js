@@ -1,6 +1,8 @@
 import React from 'react'
 import loginImg from "../../assets/login.svg";
 
+
+
 const Login = ({ onRegister, onReset}) => {
   return (
     <div className="main-container --flex-center">
@@ -14,7 +16,7 @@ const Login = ({ onRegister, onReset}) => {
           <input
               type="password"
               className="--width-100"
-              placeholder="Password"
+              placeholder="Password3s3d"
             />
           <button className="--btn --btn-primary --btn-block">Login</button>
           <a href='#' className='--text-sm' onClick={onReset}>
